@@ -31,7 +31,6 @@ func (r LookupReader) Lookup(b byte) byte {
 	} else {
 		return b
 	}
-	return b
 }
 
 func (r LookupReader) Read(p []byte) (int, error) {
